@@ -22,7 +22,7 @@ To run a demo, follow these steps:
    ```
    pip install -r requirements.txt
    ```
-4. update the `.env` file
+4. update the `.env` file  
    Modify the `.env` file as needed to include any necessary API keys or configuration settings.
 5. Run the Chainlit app in watch mode:
    ```
