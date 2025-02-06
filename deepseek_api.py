@@ -1,8 +1,10 @@
 import os
 import time
+from dotenv import load_dotenv
 from openai import AsyncOpenAI
-
 import chainlit as cl
+
+load_dotenv()
 
 client = AsyncOpenAI(
     api_key=os.getenv("DEEP_SEEK_API_KEY"),
